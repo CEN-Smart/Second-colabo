@@ -3,6 +3,7 @@
 font
 =========
 */
+
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
 
 /* 
@@ -10,197 +11,206 @@ font
 variables
 =========
 */
-:root{
-        /* primary colors */
-    --clr-primary-1:Dark Blue: hsl(233, 26%, 24%);
-    --clr-primary-2:Lime Green: hsl(136, 65%, 51%);
-    --clr-primary-3:Bright Cyan: hsl(192, 70%, 51%);
-        /* neutral colors */
-    --clr-neutral-1:Grayish Blue: hsl(233, 8%, 62%);
-    --clr-neutral-2:Light Grayish Blue: hsl(220, 16%, 96%);
-    --clr-neutral-3:Very Light Gray: hsl(0, 0%, 98%);
+
+:root {
+    /* primary colors */
+    --clr-primary-1: Dark Blue: hsl(233, 26%, 24%);
+    --clr-primary-2: Lime Green: hsl(136, 65%, 51%);
+    --clr-primary-3: Bright Cyan: hsl(192, 70%, 51%);
+    /* neutral colors */
+    --clr-neutral-1: Grayish Blue: hsl(233, 8%, 62%);
+    --clr-neutral-2: Light Grayish Blue: hsl(220, 16%, 96%);
+    --clr-neutral-3: Very Light Gray: hsl(0, 0%, 98%);
     --clr-white: White: hsl(0, 0%, 100%);
-    --transition: all 0.5s linear ;
-    --font-family:'Public Sans', sans-serif;
-    
+    --transition: all 0.5s linear;
+    --font-family: 'Public Sans', sans-serif;
 }
+
 
 /* 
 =========
 global styles
 =========
 */
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: var(--font-family);
-    font-size:1rem;
+    font-size: 1rem;
     color: var(--clr-white);
     margin: 0 auto;
 }
-img{
+
+img {
     width: 100%;
-    display:block;
+    display: block;
 }
+
+
 /* 
 ==========
 nav
 ==========
 */
-.navbar{
-    margin-bottom: 3rem;
-}
-.btn{
-    border-radius: 2.5rem;
-    padding: 0.5rem 2rem;
-    background:linear-gradient(to right, rgba(20, 224, 54, 0.7),  rgb(77, 161, 187));
-    font-size: 1rem;
-    
-}
-.links{
-    font-size:1.4rem;
-}
+
 
 /*
 =============
 first section img
 ============= 
  */
-.img-1{
+
+.img-1 {
     background: url(./images/bg-intro-mobile.svg) center/cover no-repeat;
     /* height: 300px ;
     object-fit: cover; */
     margin-bottom: 3rem;
 }
+
+
 /*
 =============
 first section text
 ============= 
  */
-.first{
+
+.first {
     text-align: center;
 }
-.info h3{
+
+.info h3 {
     font-size: 2rem;
     margin-bottom: 2rem;
 }
-.info p{
+
+.info p {
     font-size: 1rem;
     color: hsl(233, 8%, 62%);
     margin-bottom: 3rem;
 }
 
-button.btn{
-    color: white;
-    margin-bottom: 3rem;
-}
+
 /*
 =============
 second section 
 ============= 
  */
-.info-1 h4{
+
+.info-1 h4 {
     font-size: 2rem;
     margin-bottom: 2rem;
     text-align: center;
 }
-.info-1 p{
+
+.info-1 p {
     font-size: 1.5rem;
     color: hsl(233, 8%, 62%);
     margin-bottom: 3rem;
     text-align: center;
 }
+
 @media screen and (min-width:770px) {
-    .info h3{
+    .info h3 {
         font-size: 4rem;
     }
-    .info p{
+    .info p {
         font-size: 2rem;
     }
 }
+
+
 /*
 =============
 third section 
 ============= 
  */
-.cimg{
+
+.cimg {
     width: 30%;
     margin: 0 auto;
 }
-.card-body{
+
+.card-body {
     margin-top: 2rem;
 }
-.card-title{
+
+.card-title {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
-.card-text{
+
+.card-text {
     font-size: 1.5rem;
-    color:hsl(233, 8%, 62%);
+    color: hsl(233, 8%, 62%);
 }
-.col-md-6{
+
+.col-md-6 {
     margin-bottom: 3rem;
     text-align: center;
 }
+
 @media screen and (min-width:765px) {
-    .cimg{
+    .cimg {
         width: 35%;
         margin: 0;
     }
-    .col-md-6{
+    .col-md-6 {
         text-align: start;
     }
-    .info-1 p{
+    .info-1 p {
         font-size: 1rem;
         text-align: start;
     }
-    .info-1 h4{
+    .info-1 h4 {
         font-size: 1.5rem;
-        text-align:start;
+        text-align: start;
     }
 }
+
 
 /*
 =============
 fourth section
 ============= 
  */
-.simg{
+
+.simg {
     height: 200px;
     object-fit: cover;
 }
-.text-muted{
+
+.text-muted {
     font-size: 1.5rem;
     margin-bottom: 6rem;
 }
+
 
 /*
 =============
 footer section
 ============= 
  */
-.container-fluid{
-    height: auto;
-    background: hsl(233, 26%, 24%); ;
-}
 
-.footer-link{
+.footer-link {
     display: block;
     color: white;
     line-height: 3rem;
     font-size: 1.5rem;
 }
-.main{
+
+.main {
     margin-top: 4rem;
 }
-.btn1{
-    padding:1 0;
+
+.btn1 {
+    padding: 1 0;
 }
 
-footer{
+footer {
     text-align: center;
 }

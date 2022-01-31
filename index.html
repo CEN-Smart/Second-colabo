@@ -12,28 +12,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
     <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>EasyBank - Next Generation Digital Banking</title>
     <link rel="stylesheet" href="styles.css" />
+    <title>EasyBank - Next Generation Digital Banking</title>
 </head>
 
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-        <div class="container-xl">
-            <a href="#" class="navbar-brand">
-                <img src="images/logo.svg" height="28" alt="CoolBrand" />
-            </a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-					<span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.svg" alt="EasyBanking Logo" /></a>
+            <button class="navbar-toggler collapsed d-flex d-lg-none justify-content-around flex-column" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="toggler-icon top-bar"></span>
+					<span class="toggler-icon middle-bar"></span>
+					<span class="toggler-icon bottom-bar"></span>
 				</button>
-            <div class="collapse navbar-collapse" id="navbarCollapse one">
-                <div class="navbar-nav links">
-                    <a href="#" class="nav-item nav-link active">Home</a>
-                    <a href="#" class="nav-item nav-link">About</a>
-                    <a href="#" class="nav-item nav-link">Contact</a>
-                    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Careers</a>
-                </div>
-                <div class="navbar-nav ms-auto">
-                    <button type="button" class="btn btn-success first-btn">
+
+            <div class="collapse navbar-collapse mt-0" id="navbarMain">
+                <ul class="navbar-nav text-center ms-auto me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="">Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Career</a></li>
+                </ul>
+
+                <div class="mb-4">
+                    <button class="btn btn-dark text-light border-0 rounded-pill px-4 py-2" type="button">
 							Request Invite
 						</button>
                 </div>
@@ -51,8 +56,6 @@
                 <p>
                     Take your financial life online. Your EasyBank account will be a one-stop-shop for spending, saving, budgeting, investing and a much more
                 </p>
-
-                <button type="button" class="btn">Request Invite</button>
             </div>
         </div>
     </div>
