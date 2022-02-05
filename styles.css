@@ -185,7 +185,7 @@ fourth section
 }
 
 .text-muted {
-    font-size: 1.5rem;
+    font-size: 0.3rem;
     margin-bottom: 6rem;
 }
 
@@ -209,8 +209,4 @@ footer section
 
 .btn1 {
     padding: 1 0;
-}
-
-footer {
-    text-align: center;
 }
